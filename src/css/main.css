@@ -1,0 +1,126 @@
+*{
+
+    box-sizing: border-box;
+}
+a{
+    color: white;
+}
+.contenedorPrincipal {
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background: url("../img/cabecera.jpg");
+        display: flex;
+        flex-flow: column nowrap;
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        height: 500px;
+    }
+        .cabecera{
+            /*background: coral;*/
+            display: flex;
+            flex-flow: nowrap;
+        }
+        .logo{
+            /*background: url("../img/iconoweb.png");*/
+            /*flex: 1 1 auto;*/
+            background-size: cover;
+            background-position: center;}
+
+         .tamañologo{
+             width: 200px;
+             height: 100px;
+         }
+        .nav{
+            display: flex;
+            flex: 2.5 1 auto;
+            justify-content: center;
+
+        }
+        .tamañorrss{
+            width: 45px;
+            height: 45px;
+        }
+        .social{
+            display: flex;
+            flex: 1 1 auto;
+            justify-content: center;
+        }
+    .destinos{
+        background: black;
+        display: flex;
+    }
+        .lugares{
+            background: chartreuse;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+
+
+        }
+            .lugar{
+                background: darkslateblue;
+
+                width: 280px;
+                margin: 10px;
+            }
+            .img_viaje {
+                height: auto;
+                width: 100%;
+            }
+    .about{
+        background: url("../img/travel_2.jpg");
+        display: flex;
+        flex-flow: column nowrap;
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        height: 500px;
+    }
+        .descripcion{
+            background: firebrick;
+        }
+    .contact{
+        background: black;
+        display: flex;
+        flex-flow: nowrap;
+    }
+        .mapa{
+            flex: 1 1 auto;
+            width: 450px;
+            height: 350px;
+
+        }
+        .formulario{
+            background: blue;
+            flex: 1 1 auto;
+        }
+            .horario{
+
+                background: tomato;
+
+            }
+            .form{
+
+                background: tomato;
+
+            }
+    .footer{
+        background: black;
+        display: flex;
+        flex-flow: nowrap;
+    }
+        .ayuda{
+            background: gold;
+            flex: 1 1 auto;
+        }
+        .informacion{
+            background: gold;
+            flex: 1 1 auto;
+        }
+        .newsletter{
+            background: gold;
+            flex: 1 1 auto;
+        }
